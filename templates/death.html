@@ -8,15 +8,19 @@
     <a href="/">Home</a>
 </header>
 <body>
-    <div>
-          {% for key,value in data.items() %}
-        <div>
-              <label for="">{{key}}</label>
-              <input type="text" value="{{value[0]}}" disabled>
-        </div>
-          {% endfor %}
-    </div>
 
+    <table>
+        <tr>
+            <th>Info</th>
+            <th>Data</th>
+        </tr>
+          {% for key,value in data.items() %}
+        <tr>
+            <td>{{key}}</td>
+            <td>{{value[0]}}</td>
+        </tr>
+          {% endfor %}
+    </table>
     <div>
         <img src="../static/img/death_per_country.jpg" alt="">
     </div>
