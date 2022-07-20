@@ -6,50 +6,107 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <style>
     body {
       margin: 0;
     }
-  </style>
+
+    .menu{
+      z-index: 1;
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background: white;
+
+  }
+  
+  .radio_list{
+      font-size: small;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin: 2px 0;
+    }
+    .radio_input:hover{
+      transition: 0.2s;
+      color: black;
+      background: #BBB;
+    }
+    .radio_input{
+      transition: 0.2s;
+    }
+    </style>
 
   <script src="https://unpkg.com/globe.gl"></script>
   <!--<script src="../../dist/globe.gl.js"></script>-->
 </head>
 
 <body>
+  <form id='geo' action="/geo">
+    <div class="menu">
+      <div>
+        Year to select 
+        <select name="year_selected" id="">
+          {% for y in year_select %}
+          <option value="{{ y }}">{{ y }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <br>
+      <div class='radio_list'>
+        {% for maladie in fields %}
+        <div class='radio_input'>
+          <label for="{{maladie}}">
+            <input type="radio" name="cause" id="{{maladie}}" value="{{maladie}}"> {{maladie}}
+          </label>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </form>
+  <div class='information_tab'>
+    
+  </div>
   <div id="globeViz"></div>
-
+  
   <script>
-
-    function reload_map(data_label = 'POP_EST'){
-      // let data_label = 'GDP_MD_EST' ;
+    function reload_map(data_label = '{{ label }}'){
+      
       const world = Globe();
       world(document.getElementById('globeViz'))
         .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
         .pointOfView({ altitude: 4 }, 5000)
         .polygonCapColor(feat => 'rgba(200, 0, 0, 0.6)')
         .polygonSideColor(() => 'rgba(0, 100, 0, 0.05)')
-        //set data here
+        //.polygonsData(jsonGeoData)
         .polygonLabel(({ properties: d }) => `
                   <b>${d[data_label]} (${d.ISO_A2})</b> <br />
-                  Population: <i>${Math.round(+d[data_label] / 1e4) / 1e2}M</i>
+                  {{ label }}: <i>${Math.round(+d[data_label] / 1e3)}K</i>
                 `);
 
       // Auto-rotate
       world.controls().autoRotate = true;
       world.controls().autoRotateSpeed = 1.8;
 
-      fetch('jsondata').then(res => res.json()).then(countries => {
+      fetch('./getGeoData').then(res => res.json()).then(countries => {
         world.polygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'));
 
         setTimeout(() => world
           .polygonsTransitionDuration(4000)
-          .polygonAltitude(feat => Math.max(0.1, Math.sqrt(+feat.properties[data_label]) * 7e-5))
+          .polygonAltitude(feat => Math.max(0.1, Math.sqrt(+feat.properties[data_label]) * 1e-3))
           , 3000);
       });
     }
 
     reload_map();
+    </script>
+  <script>
+    $('[name="cause"]').change(function(){
+      console.log($(this).val())
+      $('#geo').submit();
+    })
+
   </script>
 </body>
 
