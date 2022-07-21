@@ -66,13 +66,12 @@
     </div>
   </form>
   <div class='information_tab'>
-    
+
   </div>
   <div id="globeViz"></div>
-  
+
   <script>
     function reload_map(data_label = '{{ label }}'){
-      
       const world = Globe();
       world(document.getElementById('globeViz'))
         .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
@@ -82,7 +81,7 @@
         //.polygonsData(jsonGeoData)
         .polygonLabel(({ properties: d }) => `
                   <b>${d[data_label]} (${d.ISO_A2})</b> <br />
-                  {{ label }}: <i>${Math.round(+d[data_label] / 1e3)}K</i>
+                  {{ label }}: <i>${Math.round(+d[data_label] / '{{ power }}' )} {{ unity }}</i>
                 `);
 
       // Auto-rotate
@@ -94,7 +93,7 @@
 
         setTimeout(() => world
           .polygonsTransitionDuration(4000)
-          .polygonAltitude(feat => Math.max(0.1, Math.sqrt(+feat.properties[data_label]) * 1e-3))
+          .polygonAltitude(feat => Math.max(0.1, Math.sqrt(+feat.properties[data_label]) * "{{ scale }}" ))
           , 3000);
       });
     }
@@ -102,7 +101,9 @@
     reload_map();
     </script>
   <script>
-    $('[name="cause"]').change(function(){
+
+
+$('[name="cause"]').change(function(){
       console.log($(this).val())
       $('#geo').submit();
     })

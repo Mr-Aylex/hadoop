@@ -1,16 +1,8 @@
 import json
+import numpy as np
 
-def reformaGeoJson(cause,year):
 
-    # input_data = {
-    #     'Afghanistan': '25616',
-    #     'United Arab Emirates': '5616',
-    #     'Armenia': '25616',
-    # }
-    # cause = 'test_death'
-
-    input_data = filter_data(cause, year)
-
+def reformaGeoJson(input_data ,cause, year):
     with  open('./new_test.geojson', 'r') as f:
         geojson = json.load(f)
 
@@ -19,23 +11,38 @@ def reformaGeoJson(cause,year):
 
             if pay_target not in input_data.keys():
                 input_data[pay_target] = 0
+                # print(f"{pay_target=} no find , add 0 inside")
+            # else:
+                # print(f"{pay_target=} find val : {input_data[pay_target]}")
             death = input_data[pay_target]
 
             fea['properties'][cause] = death
 
-    newf = open("./testdata.geojson",'w')
+    #     print(json.dumps(geojson, indent=4))
+    newf = open("./templates/testdata.geojson", 'w')
     newf.write(json.dumps(geojson, indent=4))
     newf.close()
 
 
-def filter_data(cause,year):
+def filter_data(cause, year):
     outputData = dict()
-    with  open('./annual-number-of-deaths-by-country-and-year.json','r') as f:
+
+    ignore_list = ['World','G20','Western Europe','Central Europe']
+
+    with  open('./annual-number-of-deaths-by-country-and-year.json', 'r') as f:
         data = json.load(f)
-        for pay,propreties in data[year].items():
+        for pay, propreties in data[year].items():
+            if propreties is not None and propreties["Code"] is None:
+                print(f"{pay=} have not code")
+                ignore_list.append(pay)
+
+        for pay, propreties in data[year].items():
+
+            if pay in ignore_list :
+                continue
             if propreties is not None and cause in propreties.keys() and propreties[cause] is not None:
                 outputData[pay] = propreties[cause]
-            else :
+            else:
                 outputData[pay] = 0
     return outputData
 

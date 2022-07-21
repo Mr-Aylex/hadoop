@@ -14,13 +14,14 @@ from pyspark.sql import SparkSession
 import pyspark.sql as sql
 import pyspark.sql.functions as f
 from pyspark.sql.functions import concat_ws, lit
+import reformaGeojsonData
 
 appName = "Spark SQL basic example"
 # Create a SparkSession
-spark = SparkSession.builder.appName(appName).getOrCreate()
-print("merge of datasets")
-print("Spark version:", spark.version)
-bd = spark.read.csv("dada/big_dataset.csv", sep=";", header=True, inferSchema=True)
+# spark = SparkSession.builder.appName(appName).getOrCreate()
+# print("merge of datasets")
+# print("Spark version:", spark.version)
+# bd = spark.read.csv("dada/big_dataset.csv", sep=";", header=True, inferSchema=True)
 
 # https://pymongo.readthedocs.io/en/stable/tutorial.html
 # https://matplotlib.org/
@@ -173,6 +174,60 @@ def displayceckbox():
     names = el.keys()
     fields = names
     return render_template('ckb.html', data={'fields': fields})
+
+
+@app.route('/getGeoData',methods=['GET','PUT'])
+def getGeoData():
+
+    geojson = json.load(open("./templates/testdata.geojson",'r'))
+    return json.dumps(geojson)
+
+@app.route('/geo',methods=['GET','PUT'])
+def geo():
+    lis = ["Executions", "Meningitis", "Alzheimer", "Parkinson", "Nutritional_deficiencies", "Malaria",
+           "Drowning",
+           "Interpersonal_violence", "Maternal_disorders", "HIV/AIDS", "Drug_use_disorders", "Tuberculosis",
+           "Cardiovascular_diseases", "Lower_respiratory_infections", "Neonatal_disorders", "Alcohol_use_disorders",
+           "Self-harm", "Exposure_to_forces_of_nature", "Diarrheal", "Environmental_heat_and_cold_exposure",
+           "Neoplasms", "Conflict_and_terrorism", "Diabetes_mellitus", "Chronic_kidney", "Poisonings",
+           "Protein-energy_malnutrition", "Terrorism", "Road_injuries", "Chronic_respiratory",
+           "Cirrhosis_and_other_chronic liver", "Digestive", "Fire_heat_and_hot_substances", "Acute_hepatitis"]
+    year_s = [*range(1990,2023)]
+
+    print(f"{ request.args=}")
+    print(f"{ request.args['year_selected']}")
+
+    if 'cause' not in request.args : # on first time load
+        year = '2007'
+        cause = 'Maternal_disorders';
+        _GET = []
+    else :
+        year = request.args['year_selected']
+        cause = request.args['cause']
+        _GET = request.args
+
+    input_data = reformaGeojsonData.filter_data(cause, year)
+    max = np.amax(np.array([*input_data.values()]))
+
+    unity = 'U'
+    p = 1
+
+    if max // np.power(10,6):
+        p = np.power(10,6)
+        unity = "M"
+    elif max // np.power(10,3):
+        unity = "K"
+        p = np.power(10,3)
+
+    print(f"{max=}")
+
+    graph_scal = 200/max
+
+    reformaGeojsonData.reformaGeoJson(input_data,cause,year)
+
+    # print(list(request.form))
+    return render_template('test2.html',label = cause ,fields = lis,year_select=year_s,prev_data=_GET,unity = unity,scale = graph_scal, power = p)
+
 
 
 if __name__ == '__main__':
