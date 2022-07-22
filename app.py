@@ -1,31 +1,48 @@
+# def package
 from flask import Flask, render_template, request
-import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.collections import PolyCollection
-# import requests, json
-# from pymongo import MongoClient
-import matplotlib.pyplot as plt
-import numpy as np
-import matplotlib.image as img
-import base64
 from io import BytesIO
-from matplotlib.figure import Figure
-from pyspark.sql import SparkSession
-import pyspark.sql as sql
-import pyspark.sql.functions as f
-from pyspark.sql.functions import concat_ws, lit
+import json
+
+# custome package
 import reformaGeojsonData
 
-appName = "Spark SQL basic example"
-# Create a SparkSession
+# pandas
+import base64
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import matplotlib.image as img
+from matplotlib.collections import PolyCollection
+from matplotlib.figure import Figure
+
+# jdk
+# import jdk
+
+# jdk.install('8')
+
+# spark bundle
+# from pyspark.sql import SparkSession
+# import pyspark.sql as sql
+# import pyspark.sql.functions as f
+# from pyspark.sql.functions import concat_ws, lit
+# appName = "Spark SQL basic example"
+
+# # Create a SparkSession
 # spark = SparkSession.builder.appName(appName).getOrCreate()
-# print("merge of datasets")
-# print("Spark version:", spark.version)
+# # print("merge of datasets")
+# # print("Spark version:", spark.version)
 # bd = spark.read.csv("dada/big_dataset.csv", sep=";", header=True, inferSchema=True)
 
 # https://pymongo.readthedocs.io/en/stable/tutorial.html
 # https://matplotlib.org/
 app = Flask(__name__)
+
+
+def get_data():
+    print("daa")
+        # with open("annual-number-of-deaths-by-country-and-year.json", "r") as f:
 
 
 @app.route("/")
@@ -93,7 +110,6 @@ def death():
 
 @app.route('/death/<year>/<country>')
 def death_per_url(year, country):
-    client = MongoClient('mongodb://localhost:27017/')
     with open("annual-number-of-deaths-by-country-and-year.json", "r") as f:
         data = json.load(f)
         country = country.title()
@@ -175,6 +191,9 @@ def displayceckbox():
     fields = names
     return render_template('ckb.html', data={'fields': fields})
 
+@app.rout('/predict')
+def predict():
+    print("predict")
 
 @app.route('/getGeoData',methods=['GET','PUT'])
 def getGeoData():
@@ -194,14 +213,13 @@ def geo():
            "Cirrhosis_and_other_chronic liver", "Digestive", "Fire_heat_and_hot_substances", "Acute_hepatitis"]
     year_s = [*range(1990,2023)]
 
-    print(f"{ request.args=}")
-    print(f"{ request.args['year_selected']}")
-
     if 'cause' not in request.args : # on first time load
         year = '2007'
         cause = 'Maternal_disorders';
         _GET = []
     else :
+        print(f"{ request.args=}")
+        print(f"{ request.args['year_selected']}")
         year = request.args['year_selected']
         cause = request.args['cause']
         _GET = request.args
@@ -226,7 +244,7 @@ def geo():
     reformaGeojsonData.reformaGeoJson(input_data,cause,year)
 
     # print(list(request.form))
-    return render_template('test2.html',label = cause ,fields = lis,year_select=year_s,prev_data=_GET,unity = unity,scale = graph_scal, power = p)
+    return render_template('test2.html',label = cause ,fields = lis,year_select=year_s,prev_data=_GET,unity = unity,scale = graph_scal, power = p , year_selected = year , cause_selected = cause)
 
 
 

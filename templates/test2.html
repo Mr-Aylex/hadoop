@@ -49,7 +49,7 @@
         Year to select 
         <select name="year_selected" id="">
           {% for y in year_select %}
-          <option value="{{ y }}">{{ y }}</option>
+          <option value="{{ y }}" id='{{ y }}'>{{ y }}</option>
           {% endfor %}
         </select>
       </div>
@@ -71,7 +71,7 @@
   <div id="globeViz"></div>
 
   <script>
-    function reload_map(data_label = '{{ label }}'){
+      data_label = '{{ label }}';
       const world = Globe();
       world(document.getElementById('globeViz'))
         .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
@@ -96,13 +96,27 @@
           .polygonAltitude(feat => Math.max(0.1, Math.sqrt(+feat.properties[data_label]) * "{{ scale }}" ))
           , 3000);
       });
-    }
 
-    reload_map();
+    $("canvas").on('click',function(){
+      world.controls().autoRotate = false;
+      window.setTimeout(function(){
+        world.controls().autoRotate = true
+      },2500);
+    })
     </script>
+      {% if year_selected is defined %}
+        <script>
+          $('#{{year_selected}}').attr('selected','selected')
+          </script>
+      {% endif %}
+
+      {% if cause_selected is defined %}
+      <script>
+          $('#{{cause_selected}}').attr('checked','true')
+          //pre-set select data
+        </script>
+      {% endif %}
   <script>
-
-
 $('[name="cause"]').change(function(){
       console.log($(this).val())
       $('#geo').submit();
