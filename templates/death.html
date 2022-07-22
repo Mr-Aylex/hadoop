@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        th,td{
+            border: 1px solid black;
+        }
+        tr:nth-child(odd){
+            background-color: #E0E0E0;
+        }
+        *{
+            padding:0px;
+            margin:0px;
+        }
+    </style>
 </head>
 <header>
     <a href="/">Home</a>
 </header>
 <body>
-<<<<<<< HEAD
+
 
     <table>
         <tr>
@@ -22,20 +34,26 @@
         </tr>
           {% endfor %}
     </table>
-=======
-    <div>
-          {% for key,value in data.items() %}
-        <div>
-              <label for="">{{key}}</label>
-              <input type="text" value="{{value[0]}}" disabled>
-        </div>
-          {% endfor %}
-    </div>
-
->>>>>>> 9bf8a76 (first push)
     <div>
         <img src="../static/img/death_per_country.jpg" alt="">
     </div>
+
+<table>
+    <tr>
+        <th>Info</th>
+        <th>Data</th>
+    </tr>
+    {% for key,value in data.items() %}
+        <tr>
+            <td>{{key}}</td>
+            <td>{{value[0]}}</td>
+        </tr>
+    {% endfor %}
+</table>
+<div>
+    <img src="../static/img/death_per_country.jpg" alt="">
+</div>
+>>>>>>> b34f976 (end)
 
 </body>
 </html>
