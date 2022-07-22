@@ -7,7 +7,7 @@
                 "ISO_A2": "AF",
                 "ISO_A3": "AFG",
                 "NAME": "Afghanistan",
-                "Chronic_kidney": 4413.0
+                "Alcohol_use_disorders": 111.0
             },
             "bbox": [
                 60.52843,
@@ -305,7 +305,7 @@
                 "ISO_A2": "AO",
                 "ISO_A3": "AGO",
                 "NAME": "Angola",
-                "Chronic_kidney": 1571.0
+                "Alcohol_use_disorders": 143.0
             },
             "bbox": [
                 11.640096,
@@ -633,7 +633,7 @@
                 "ISO_A2": "AL",
                 "ISO_A3": "ALB",
                 "NAME": "Albania",
-                "Chronic_kidney": 256.0
+                "Alcohol_use_disorders": 16.0
             },
             "bbox": [
                 19.304486,
@@ -751,7 +751,7 @@
                 "ISO_A2": "AE",
                 "ISO_A3": "ARE",
                 "NAME": "United Arab Emirates",
-                "Chronic_kidney": 470.0
+                "Alcohol_use_disorders": 31.0
             },
             "bbox": [
                 51.579519,
@@ -861,7 +861,7 @@
                 "ISO_A2": "AR",
                 "ISO_A3": "ARG",
                 "NAME": "Argentina",
-                "Chronic_kidney": 12517.0
+                "Alcohol_use_disorders": 864.0
             },
             "bbox": [
                 -73.415436,
@@ -1373,7 +1373,7 @@
                 "ISO_A2": "AM",
                 "ISO_A3": "ARM",
                 "NAME": "Armenia",
-                "Chronic_kidney": 217.0
+                "Alcohol_use_disorders": 67.0
             },
             "bbox": [
                 43.582746,
@@ -1475,7 +1475,7 @@
                 "ISO_A2": "AQ",
                 "ISO_A3": "ATA",
                 "NAME": "Antarctica",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 -180,
@@ -4171,7 +4171,7 @@
                 "ISO_A2": "TF",
                 "ISO_A3": "ATF",
                 "NAME": "Fr. S. Antarctic Lands",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 68.72,
@@ -4229,7 +4229,7 @@
                 "ISO_A2": "AU",
                 "ISO_A3": "AUS",
                 "NAME": "Australia",
-                "Chronic_kidney": 2777.0
+                "Alcohol_use_disorders": 483.0
             },
             "bbox": [
                 113.338953,
@@ -5221,7 +5221,7 @@
                 "ISO_A2": "AT",
                 "ISO_A3": "AUT",
                 "NAME": "Austria",
-                "Chronic_kidney": 1692.0
+                "Alcohol_use_disorders": 411.0
             },
             "bbox": [
                 9.47997,
@@ -5391,7 +5391,7 @@
                 "ISO_A2": "AZ",
                 "ISO_A3": "AZE",
                 "NAME": "Azerbaijan",
-                "Chronic_kidney": 929.0
+                "Alcohol_use_disorders": 178.0
             },
             "bbox": [
                 44.79399,
@@ -5595,7 +5595,7 @@
                 "ISO_A2": "BI",
                 "ISO_A3": "BDI",
                 "NAME": "Burundi",
-                "Chronic_kidney": 751.0
+                "Alcohol_use_disorders": 60.0
             },
             "bbox": [
                 29.024926,
@@ -5669,7 +5669,7 @@
                 "ISO_A2": "BE",
                 "ISO_A3": "BEL",
                 "NAME": "Belgium",
-                "Chronic_kidney": 1933.0
+                "Alcohol_use_disorders": 427.0
             },
             "bbox": [
                 2.513573,
@@ -5759,7 +5759,7 @@
                 "ISO_A2": "BJ",
                 "ISO_A3": "BEN",
                 "NAME": "Benin",
-                "Chronic_kidney": 1052.0
+                "Alcohol_use_disorders": 46.0
             },
             "bbox": [
                 0.772336,
@@ -5881,7 +5881,7 @@
                 "ISO_A2": "BF",
                 "ISO_A3": "BFA",
                 "NAME": "Burkina Faso",
-                "Chronic_kidney": 1705.0
+                "Alcohol_use_disorders": 97.0
             },
             "bbox": [
                 -5.470565,
@@ -6059,7 +6059,7 @@
                 "ISO_A2": "BD",
                 "ISO_A3": "BGD",
                 "NAME": "Bangladesh",
-                "Chronic_kidney": 9365.0
+                "Alcohol_use_disorders": 277.0
             },
             "bbox": [
                 88.084422,
@@ -6225,7 +6225,7 @@
                 "ISO_A2": "BG",
                 "ISO_A3": "BGR",
                 "NAME": "Bulgaria",
-                "Chronic_kidney": 1434.0
+                "Alcohol_use_disorders": 121.0
             },
             "bbox": [
                 22.380526,
@@ -6359,7 +6359,7 @@
                 "ISO_A2": "BS",
                 "ISO_A3": "BHS",
                 "NAME": "Bahamas",
-                "Chronic_kidney": 67.0
+                "Alcohol_use_disorders": 13.0
             },
             "bbox": [
                 -78.98,
@@ -6475,7 +6475,7 @@
                 "ISO_A2": "BA",
                 "ISO_A3": "BIH",
                 "NAME": "Bosnia and Herz.",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 15.750026,
@@ -6589,7 +6589,7 @@
                 "ISO_A2": "BY",
                 "ISO_A3": "BLR",
                 "NAME": "Belarus",
-                "Chronic_kidney": 469.0
+                "Alcohol_use_disorders": 2478.0
             },
             "bbox": [
                 23.199494,
@@ -6791,7 +6791,7 @@
                 "ISO_A2": "BZ",
                 "ISO_A3": "BLZ",
                 "NAME": "Belize",
-                "Chronic_kidney": 56.0
+                "Alcohol_use_disorders": 6.0
             },
             "bbox": [
                 -89.229122,
@@ -6893,7 +6893,7 @@
                 "ISO_A2": "BO",
                 "ISO_A3": "BOL",
                 "NAME": "Bolivia",
-                "Chronic_kidney": 2421.0
+                "Alcohol_use_disorders": 292.0
             },
             "bbox": [
                 -69.590424,
@@ -7155,7 +7155,7 @@
                 "ISO_A2": "BR",
                 "ISO_A3": "BRA",
                 "NAME": "Brazil",
-                "Chronic_kidney": 26638.0
+                "Alcohol_use_disorders": 8677.0
             },
             "bbox": [
                 -73.987235,
@@ -7989,7 +7989,7 @@
                 "ISO_A2": "BN",
                 "ISO_A3": "BRN",
                 "NAME": "Brunei",
-                "Chronic_kidney": 39.0
+                "Alcohol_use_disorders": 1.0
             },
             "bbox": [
                 114.204017,
@@ -8043,7 +8043,7 @@
                 "ISO_A2": "BT",
                 "ISO_A3": "BTN",
                 "NAME": "Bhutan",
-                "Chronic_kidney": 92.0
+                "Alcohol_use_disorders": 5.0
             },
             "bbox": [
                 88.814248,
@@ -8117,7 +8117,7 @@
                 "ISO_A2": "BW",
                 "ISO_A3": "BWA",
                 "NAME": "Botswana",
-                "Chronic_kidney": 300.0
+                "Alcohol_use_disorders": 22.0
             },
             "bbox": [
                 19.895458,
@@ -8299,7 +8299,7 @@
                 "ISO_A2": "CF",
                 "ISO_A3": "CAF",
                 "NAME": "Central African Rep.",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 14.459407,
@@ -8569,7 +8569,7 @@
                 "ISO_A2": "CA",
                 "ISO_A3": "CAN",
                 "NAME": "Canada",
-                "Chronic_kidney": 4634.0
+                "Alcohol_use_disorders": 1034.0
             },
             "bbox": [
                 -140.99778,
@@ -11885,7 +11885,7 @@
                 "ISO_A2": "CH",
                 "ISO_A3": "CHE",
                 "NAME": "Switzerland",
-                "Chronic_kidney": 1121.0
+                "Alcohol_use_disorders": 258.0
             },
             "bbox": [
                 6.022609,
@@ -12003,7 +12003,7 @@
                 "ISO_A2": "CL",
                 "ISO_A3": "CHL",
                 "NAME": "Chile",
-                "Chronic_kidney": 3113.0
+                "Alcohol_use_disorders": 551.0
             },
             "bbox": [
                 -75.644395,
@@ -12487,7 +12487,7 @@
                 "ISO_A2": "CN",
                 "ISO_A3": "CHN",
                 "NAME": "China",
-                "Chronic_kidney": 138884.0
+                "Alcohol_use_disorders": 21274.0
             },
             "bbox": [
                 73.675379,
@@ -13475,7 +13475,7 @@
                 "ISO_A2": "CI",
                 "ISO_A3": "CIV",
                 "NAME": "C\u4e48te d'Ivoire",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 -8.60288,
@@ -13681,7 +13681,7 @@
                 "ISO_A2": "CM",
                 "ISO_A3": "CMR",
                 "NAME": "Cameroon",
-                "Chronic_kidney": 3085.0
+                "Alcohol_use_disorders": 132.0
             },
             "bbox": [
                 8.488816,
@@ -13947,7 +13947,7 @@
                 "ISO_A2": "CD",
                 "ISO_A3": "COD",
                 "NAME": "Dem. Rep. Congo",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 12.182337,
@@ -14465,7 +14465,7 @@
                 "ISO_A2": "CG",
                 "ISO_A3": "COG",
                 "NAME": "Congo",
-                "Chronic_kidney": 471.0
+                "Alcohol_use_disorders": 38.0
             },
             "bbox": [
                 11.093773,
@@ -14683,7 +14683,7 @@
                 "ISO_A2": "CO",
                 "ISO_A3": "COL",
                 "NAME": "Colombia",
-                "Chronic_kidney": 5467.0
+                "Alcohol_use_disorders": 97.0
             },
             "bbox": [
                 -78.990935,
@@ -15105,7 +15105,7 @@
                 "ISO_A2": "CR",
                 "ISO_A3": "CRI",
                 "NAME": "Costa Rica",
-                "Chronic_kidney": 802.0
+                "Alcohol_use_disorders": 65.0
             },
             "bbox": [
                 -85.941725,
@@ -15271,7 +15271,7 @@
                 "ISO_A2": "CU",
                 "ISO_A3": "CUB",
                 "NAME": "Cuba",
-                "Chronic_kidney": 1644.0
+                "Alcohol_use_disorders": 362.0
             },
             "bbox": [
                 -84.974911,
@@ -15461,7 +15461,7 @@
                 "ISO_A2": "-99",
                 "ISO_A3": "-99",
                 "NAME": "N. Cyprus",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 32.73178,
@@ -15547,7 +15547,7 @@
                 "ISO_A2": "CY",
                 "ISO_A3": "CYP",
                 "NAME": "Cyprus",
-                "Chronic_kidney": 227.0
+                "Alcohol_use_disorders": 8.0
             },
             "bbox": [
                 32.256667,
@@ -15629,7 +15629,7 @@
                 "ISO_A2": "CZ",
                 "ISO_A3": "CZE",
                 "NAME": "Czechia",
-                "Chronic_kidney": 1039.0
+                "Alcohol_use_disorders": 428.0
             },
             "bbox": [
                 12.240111,
@@ -15791,7 +15791,7 @@
                 "ISO_A2": "DE",
                 "ISO_A3": "DEU",
                 "NAME": "Germany",
-                "Chronic_kidney": 18744.0
+                "Alcohol_use_disorders": 5507.0
             },
             "bbox": [
                 5.988658,
@@ -16045,7 +16045,7 @@
                 "ISO_A2": "DJ",
                 "ISO_A3": "DJI",
                 "NAME": "Djibouti",
-                "Chronic_kidney": 69.0
+                "Alcohol_use_disorders": 7.0
             },
             "bbox": [
                 41.66176,
@@ -16127,7 +16127,7 @@
                 "ISO_A2": "DK",
                 "ISO_A3": "DNK",
                 "NAME": "Denmark",
-                "Chronic_kidney": 813.0
+                "Alcohol_use_disorders": 885.0
             },
             "bbox": [
                 8.089977,
@@ -16251,7 +16251,7 @@
                 "ISO_A2": "DO",
                 "ISO_A3": "DOM",
                 "NAME": "Dominican Rep.",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 -71.945112,
@@ -16377,7 +16377,7 @@
                 "ISO_A2": "DZ",
                 "ISO_A3": "DZA",
                 "NAME": "Algeria",
-                "Chronic_kidney": 4605.0
+                "Alcohol_use_disorders": 92.0
             },
             "bbox": [
                 -8.6844,
@@ -16647,7 +16647,7 @@
                 "ISO_A2": "EC",
                 "ISO_A3": "ECU",
                 "NAME": "Ecuador",
-                "Chronic_kidney": 4360.0
+                "Alcohol_use_disorders": 462.0
             },
             "bbox": [
                 -80.967765,
@@ -16801,7 +16801,7 @@
                 "ISO_A2": "EG",
                 "ISO_A3": "EGY",
                 "NAME": "Egypt",
-                "Chronic_kidney": 14493.0
+                "Alcohol_use_disorders": 114.0
             },
             "bbox": [
                 24.70007,
@@ -16999,7 +16999,7 @@
                 "ISO_A2": "ER",
                 "ISO_A3": "ERI",
                 "NAME": "Eritrea",
-                "Chronic_kidney": 449.0
+                "Alcohol_use_disorders": 44.0
             },
             "bbox": [
                 36.32322,
@@ -17133,7 +17133,7 @@
                 "ISO_A2": "ES",
                 "ISO_A3": "ESP",
                 "NAME": "Spain",
-                "Chronic_kidney": 10518.0
+                "Alcohol_use_disorders": 443.0
             },
             "bbox": [
                 -9.392884,
@@ -17359,7 +17359,7 @@
                 "ISO_A2": "EE",
                 "ISO_A3": "EST",
                 "NAME": "Estonia",
-                "Chronic_kidney": 134.0
+                "Alcohol_use_disorders": 326.0
             },
             "bbox": [
                 23.339795,
@@ -17457,7 +17457,7 @@
                 "ISO_A2": "ET",
                 "ISO_A3": "ETH",
                 "NAME": "Ethiopia",
-                "Chronic_kidney": 8056.0
+                "Alcohol_use_disorders": 542.0
             },
             "bbox": [
                 32.95418,
@@ -17715,7 +17715,7 @@
                 "ISO_A2": "FI",
                 "ISO_A3": "FIN",
                 "NAME": "Finland",
-                "Chronic_kidney": 345.0
+                "Alcohol_use_disorders": 754.0
             },
             "bbox": [
                 20.645593,
@@ -17897,7 +17897,7 @@
                 "ISO_A2": "FJ",
                 "ISO_A3": "FJI",
                 "NAME": "Fiji",
-                "Chronic_kidney": 209.0
+                "Alcohol_use_disorders": 2.0
             },
             "bbox": [
                 -180,
@@ -18017,7 +18017,7 @@
                 "ISO_A2": "FK",
                 "ISO_A3": "FLK",
                 "NAME": "Falkland Is.",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 -61.2,
@@ -18079,7 +18079,7 @@
                 "ISO_A2": "-99",
                 "ISO_A3": "-99",
                 "NAME": "France",
-                "Chronic_kidney": 8576.0
+                "Alcohol_use_disorders": 3870.0
             },
             "bbox": [
                 -54.524754,
@@ -18407,7 +18407,7 @@
                 "ISO_A2": "GA",
                 "ISO_A3": "GAB",
                 "NAME": "Gabon",
-                "Chronic_kidney": 286.0
+                "Alcohol_use_disorders": 16.0
             },
             "bbox": [
                 8.797996,
@@ -18553,7 +18553,7 @@
                 "ISO_A2": "GB",
                 "ISO_A3": "GBR",
                 "NAME": "United Kingdom",
-                "Chronic_kidney": 5130.0
+                "Alcohol_use_disorders": 1673.0
             },
             "bbox": [
                 -7.572168,
@@ -18805,7 +18805,7 @@
                 "ISO_A2": "GE",
                 "ISO_A3": "GEO",
                 "NAME": "Georgia",
-                "Chronic_kidney": 574.0
+                "Alcohol_use_disorders": 52.0
             },
             "bbox": [
                 39.955009,
@@ -18923,7 +18923,7 @@
                 "ISO_A2": "GH",
                 "ISO_A3": "GHA",
                 "NAME": "Ghana",
-                "Chronic_kidney": 2954.0
+                "Alcohol_use_disorders": 166.0
             },
             "bbox": [
                 -3.24437,
@@ -19045,7 +19045,7 @@
                 "ISO_A2": "GN",
                 "ISO_A3": "GIN",
                 "NAME": "Guinea",
-                "Chronic_kidney": 1632.0
+                "Alcohol_use_disorders": 68.0
             },
             "bbox": [
                 -15.130311,
@@ -19347,7 +19347,7 @@
                 "ISO_A2": "GM",
                 "ISO_A3": "GMB",
                 "NAME": "Gambia",
-                "Chronic_kidney": 201.0
+                "Alcohol_use_disorders": 10.0
             },
             "bbox": [
                 -16.841525,
@@ -19433,7 +19433,7 @@
                 "ISO_A2": "GW",
                 "ISO_A3": "GNB",
                 "NAME": "Guinea-Bissau",
-                "Chronic_kidney": 242.0
+                "Alcohol_use_disorders": 12.0
             },
             "bbox": [
                 -16.677452,
@@ -19531,7 +19531,7 @@
                 "ISO_A2": "GQ",
                 "ISO_A3": "GNQ",
                 "NAME": "Eq. Guinea",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 9.305613,
@@ -19581,7 +19581,7 @@
                 "ISO_A2": "GR",
                 "ISO_A3": "GRC",
                 "NAME": "Greece",
-                "Chronic_kidney": 2837.0
+                "Alcohol_use_disorders": 36.0
             },
             "bbox": [
                 20.150016,
@@ -19825,7 +19825,7 @@
                 "ISO_A2": "GL",
                 "ISO_A3": "GRL",
                 "NAME": "Greenland",
-                "Chronic_kidney": 4.0
+                "Alcohol_use_disorders": 12.0
             },
             "bbox": [
                 -73.297,
@@ -20375,7 +20375,7 @@
                 "ISO_A2": "GT",
                 "ISO_A3": "GTM",
                 "NAME": "Guatemala",
-                "Chronic_kidney": 2236.0
+                "Alcohol_use_disorders": 1678.0
             },
             "bbox": [
                 -92.229249,
@@ -20537,7 +20537,7 @@
                 "ISO_A2": "GY",
                 "ISO_A3": "GUY",
                 "NAME": "Guyana",
-                "Chronic_kidney": 169.0
+                "Alcohol_use_disorders": 23.0
             },
             "bbox": [
                 -61.410303,
@@ -20719,7 +20719,7 @@
                 "ISO_A2": "HN",
                 "ISO_A3": "HND",
                 "NAME": "Honduras",
-                "Chronic_kidney": 1486.0
+                "Alcohol_use_disorders": 259.0
             },
             "bbox": [
                 -89.353326,
@@ -20969,7 +20969,7 @@
                 "ISO_A2": "HR",
                 "ISO_A3": "HRV",
                 "NAME": "Croatia",
-                "Chronic_kidney": 706.0
+                "Alcohol_use_disorders": 282.0
             },
             "bbox": [
                 13.656976,
@@ -21163,7 +21163,7 @@
                 "ISO_A2": "HT",
                 "ISO_A3": "HTI",
                 "NAME": "Haiti",
-                "Chronic_kidney": 1547.0
+                "Alcohol_use_disorders": 278.0
             },
             "bbox": [
                 -74.458034,
@@ -21269,7 +21269,7 @@
                 "ISO_A2": "HU",
                 "ISO_A3": "HUN",
                 "NAME": "Hungary",
-                "Chronic_kidney": 984.0
+                "Alcohol_use_disorders": 622.0
             },
             "bbox": [
                 16.202298,
@@ -21419,7 +21419,7 @@
                 "ISO_A2": "ID",
                 "ISO_A3": "IDN",
                 "NAME": "Indonesia",
-                "Chronic_kidney": 31985.0
+                "Alcohol_use_disorders": 578.0
             },
             "bbox": [
                 95.293026,
@@ -22491,7 +22491,7 @@
                 "ISO_A2": "IN",
                 "ISO_A3": "IND",
                 "NAME": "India",
-                "Chronic_kidney": 143931.0
+                "Alcohol_use_disorders": 18619.0
             },
             "bbox": [
                 68.176645,
@@ -23057,7 +23057,7 @@
                 "ISO_A2": "IE",
                 "ISO_A3": "IRL",
                 "NAME": "Ireland",
-                "Chronic_kidney": 473.0
+                "Alcohol_use_disorders": 104.0
             },
             "bbox": [
                 -9.977086,
@@ -23131,7 +23131,7 @@
                 "ISO_A2": "IR",
                 "ISO_A3": "IRN",
                 "NAME": "Iran",
-                "Chronic_kidney": 7744.0
+                "Alcohol_use_disorders": 205.0
             },
             "bbox": [
                 44.109225,
@@ -23457,7 +23457,7 @@
                 "ISO_A2": "IQ",
                 "ISO_A3": "IRQ",
                 "NAME": "Iraq",
-                "Chronic_kidney": 4928.0
+                "Alcohol_use_disorders": 41.0
             },
             "bbox": [
                 38.792341,
@@ -23599,7 +23599,7 @@
                 "ISO_A2": "IS",
                 "ISO_A3": "ISL",
                 "NAME": "Iceland",
-                "Chronic_kidney": 20.0
+                "Alcohol_use_disorders": 7.0
             },
             "bbox": [
                 -24.326184,
@@ -23701,7 +23701,7 @@
                 "ISO_A2": "IL",
                 "ISO_A3": "ISR",
                 "NAME": "Israel",
-                "Chronic_kidney": 1890.0
+                "Alcohol_use_disorders": 66.0
             },
             "bbox": [
                 34.265433,
@@ -23827,7 +23827,7 @@
                 "ISO_A2": "IT",
                 "ISO_A3": "ITA",
                 "NAME": "Italy",
-                "Chronic_kidney": 10472.0
+                "Alcohol_use_disorders": 324.0
             },
             "bbox": [
                 6.749955,
@@ -24207,7 +24207,7 @@
                 "ISO_A2": "JM",
                 "ISO_A3": "JAM",
                 "NAME": "Jamaica",
-                "Chronic_kidney": 590.0
+                "Alcohol_use_disorders": 9.0
             },
             "bbox": [
                 -78.337719,
@@ -24273,7 +24273,7 @@
                 "ISO_A2": "JO",
                 "ISO_A3": "JOR",
                 "NAME": "Jordan",
-                "Chronic_kidney": 733.0
+                "Alcohol_use_disorders": 8.0
             },
             "bbox": [
                 34.922603,
@@ -24371,7 +24371,7 @@
                 "ISO_A2": "JP",
                 "ISO_A3": "JPN",
                 "NAME": "Japan",
-                "Chronic_kidney": 30692.0
+                "Alcohol_use_disorders": 679.0
             },
             "bbox": [
                 129.408463,
@@ -24663,7 +24663,7 @@
                 "ISO_A2": "KZ",
                 "ISO_A3": "KAZ",
                 "NAME": "Kazakhstan",
-                "Chronic_kidney": 1427.0
+                "Alcohol_use_disorders": 2699.0
             },
             "bbox": [
                 46.466446,
@@ -25133,7 +25133,7 @@
                 "ISO_A2": "KE",
                 "ISO_A3": "KEN",
                 "NAME": "Kenya",
-                "Chronic_kidney": 2867.0
+                "Alcohol_use_disorders": 239.0
             },
             "bbox": [
                 33.893569,
@@ -25303,7 +25303,7 @@
                 "ISO_A2": "KG",
                 "ISO_A3": "KGZ",
                 "NAME": "Kyrgyzstan",
-                "Chronic_kidney": 586.0
+                "Alcohol_use_disorders": 436.0
             },
             "bbox": [
                 69.464887,
@@ -25465,7 +25465,7 @@
                 "ISO_A2": "KH",
                 "ISO_A3": "KHM",
                 "NAME": "Cambodia",
-                "Chronic_kidney": 1457.0
+                "Alcohol_use_disorders": 106.0
             },
             "bbox": [
                 102.348099,
@@ -25555,7 +25555,7 @@
                 "ISO_A2": "KR",
                 "ISO_A3": "KOR",
                 "NAME": "South Korea",
-                "Chronic_kidney": 4224.0
+                "Alcohol_use_disorders": 980.0
             },
             "bbox": [
                 126.117398,
@@ -25653,7 +25653,7 @@
                 "ISO_A2": "XK",
                 "ISO_A3": "-99",
                 "NAME": "Kosovo",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 20.0707,
@@ -25759,7 +25759,7 @@
                 "ISO_A2": "KW",
                 "ISO_A3": "KWT",
                 "NAME": "Kuwait",
-                "Chronic_kidney": 253.0
+                "Alcohol_use_disorders": 5.0
             },
             "bbox": [
                 46.568713,
@@ -25817,7 +25817,7 @@
                 "ISO_A2": "LA",
                 "ISO_A3": "LAO",
                 "NAME": "Laos",
-                "Chronic_kidney": 1340.0
+                "Alcohol_use_disorders": 66.0
             },
             "bbox": [
                 100.115988,
@@ -25987,7 +25987,7 @@
                 "ISO_A2": "LB",
                 "ISO_A3": "LBN",
                 "NAME": "Lebanon",
-                "Chronic_kidney": 802.0
+                "Alcohol_use_disorders": 12.0
             },
             "bbox": [
                 35.126053,
@@ -26053,7 +26053,7 @@
                 "ISO_A2": "LR",
                 "ISO_A3": "LBR",
                 "NAME": "Liberia",
-                "Chronic_kidney": 427.0
+                "Alcohol_use_disorders": 22.0
             },
             "bbox": [
                 -11.438779,
@@ -26183,7 +26183,7 @@
                 "ISO_A2": "LY",
                 "ISO_A3": "LBY",
                 "NAME": "Libya",
-                "Chronic_kidney": 682.0
+                "Alcohol_use_disorders": 16.0
             },
             "bbox": [
                 9.319411,
@@ -26429,7 +26429,7 @@
                 "ISO_A2": "LK",
                 "ISO_A3": "LKA",
                 "NAME": "Sri Lanka",
-                "Chronic_kidney": 4327.0
+                "Alcohol_use_disorders": 482.0
             },
             "bbox": [
                 79.695167,
@@ -26491,7 +26491,7 @@
                 "ISO_A2": "LS",
                 "ISO_A3": "LSO",
                 "NAME": "Lesotho",
-                "Chronic_kidney": 427.0
+                "Alcohol_use_disorders": 30.0
             },
             "bbox": [
                 26.999262,
@@ -26561,7 +26561,7 @@
                 "ISO_A2": "LT",
                 "ISO_A3": "LTU",
                 "NAME": "Lithuania",
-                "Chronic_kidney": 243.0
+                "Alcohol_use_disorders": 552.0
             },
             "bbox": [
                 21.0558,
@@ -26659,7 +26659,7 @@
                 "ISO_A2": "LU",
                 "ISO_A3": "LUX",
                 "NAME": "Luxembourg",
-                "Chronic_kidney": 79.0
+                "Alcohol_use_disorders": 22.0
             },
             "bbox": [
                 5.674052,
@@ -26709,7 +26709,7 @@
                 "ISO_A2": "LV",
                 "ISO_A3": "LVA",
                 "NAME": "Latvia",
-                "Chronic_kidney": 128.0
+                "Alcohol_use_disorders": 333.0
             },
             "bbox": [
                 21.0558,
@@ -26819,7 +26819,7 @@
                 "ISO_A2": "MA",
                 "ISO_A3": "MAR",
                 "NAME": "Morocco",
-                "Chronic_kidney": 5702.0
+                "Alcohol_use_disorders": 94.0
             },
             "bbox": [
                 -17.020428,
@@ -27093,7 +27093,7 @@
                 "ISO_A2": "MD",
                 "ISO_A3": "MDA",
                 "NAME": "Moldova",
-                "Chronic_kidney": 155.0
+                "Alcohol_use_disorders": 523.0
             },
             "bbox": [
                 26.619337,
@@ -27223,7 +27223,7 @@
                 "ISO_A2": "MG",
                 "ISO_A3": "MDG",
                 "NAME": "Madagascar",
-                "Chronic_kidney": 1343.0
+                "Alcohol_use_disorders": 111.0
             },
             "bbox": [
                 43.254187,
@@ -27441,7 +27441,7 @@
                 "ISO_A2": "MX",
                 "ISO_A3": "MEX",
                 "NAME": "Mexico",
-                "Chronic_kidney": 36988.0
+                "Alcohol_use_disorders": 3957.0
             },
             "bbox": [
                 -117.12776,
@@ -28143,7 +28143,7 @@
                 "ISO_A2": "MK",
                 "ISO_A3": "MKD",
                 "NAME": "Macedonia",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 20.463175,
@@ -28237,7 +28237,7 @@
                 "ISO_A2": "ML",
                 "ISO_A3": "MLI",
                 "NAME": "Mali",
-                "Chronic_kidney": 1723.0
+                "Alcohol_use_disorders": 68.0
             },
             "bbox": [
                 -12.17075,
@@ -28563,7 +28563,7 @@
                 "ISO_A2": "MM",
                 "ISO_A3": "MMR",
                 "NAME": "Myanmar",
-                "Chronic_kidney": 10051.0
+                "Alcohol_use_disorders": 411.0
             },
             "bbox": [
                 92.303234,
@@ -28865,7 +28865,7 @@
                 "ISO_A2": "ME",
                 "ISO_A3": "MNE",
                 "NAME": "Montenegro",
-                "Chronic_kidney": 112.0
+                "Alcohol_use_disorders": 9.0
             },
             "bbox": [
                 18.450017,
@@ -28959,7 +28959,7 @@
                 "ISO_A2": "MN",
                 "ISO_A3": "MNG",
                 "NAME": "Mongolia",
-                "Chronic_kidney": 338.0
+                "Alcohol_use_disorders": 430.0
             },
             "bbox": [
                 87.751264,
@@ -29281,7 +29281,7 @@
                 "ISO_A2": "MZ",
                 "ISO_A3": "MOZ",
                 "NAME": "Mozambique",
-                "Chronic_kidney": 1872.0
+                "Alcohol_use_disorders": 173.0
             },
             "bbox": [
                 30.179481,
@@ -29619,7 +29619,7 @@
                 "ISO_A2": "MR",
                 "ISO_A3": "MRT",
                 "NAME": "Mauritania",
-                "Chronic_kidney": 479.0
+                "Alcohol_use_disorders": 14.0
             },
             "bbox": [
                 -17.063423,
@@ -29797,7 +29797,7 @@
                 "ISO_A2": "MW",
                 "ISO_A3": "MWI",
                 "NAME": "Malawi",
-                "Chronic_kidney": 1359.0
+                "Alcohol_use_disorders": 95.0
             },
             "bbox": [
                 32.688165,
@@ -29931,7 +29931,7 @@
                 "ISO_A2": "MY",
                 "ISO_A3": "MYS",
                 "NAME": "Malaysia",
-                "Chronic_kidney": 3594.0
+                "Alcohol_use_disorders": 140.0
             },
             "bbox": [
                 100.085757,
@@ -30207,7 +30207,7 @@
                 "ISO_A2": "NA",
                 "ISO_A3": "NAM",
                 "NAME": "Namibia",
-                "Chronic_kidney": 322.0
+                "Alcohol_use_disorders": 22.0
             },
             "bbox": [
                 11.734199,
@@ -30405,7 +30405,7 @@
                 "ISO_A2": "NC",
                 "ISO_A3": "NCL",
                 "NAME": "New Caledonia",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 164.029606,
@@ -30479,7 +30479,7 @@
                 "ISO_A2": "NE",
                 "ISO_A3": "NER",
                 "NAME": "Niger",
-                "Chronic_kidney": 1401.0
+                "Alcohol_use_disorders": 68.0
             },
             "bbox": [
                 0.295646,
@@ -30733,7 +30733,7 @@
                 "ISO_A2": "NG",
                 "ISO_A3": "NGA",
                 "NAME": "Nigeria",
-                "Chronic_kidney": 15493.0
+                "Alcohol_use_disorders": 961.0
             },
             "bbox": [
                 2.691702,
@@ -30987,7 +30987,7 @@
                 "ISO_A2": "NI",
                 "ISO_A3": "NIC",
                 "NAME": "Nicaragua",
-                "Chronic_kidney": 1724.0
+                "Alcohol_use_disorders": 283.0
             },
             "bbox": [
                 -87.668493,
@@ -31217,7 +31217,7 @@
                 "ISO_A2": "NL",
                 "ISO_A3": "NLD",
                 "NAME": "Netherlands",
-                "Chronic_kidney": 2360.0
+                "Alcohol_use_disorders": 299.0
             },
             "bbox": [
                 3.314971,
@@ -31299,7 +31299,7 @@
                 "ISO_A2": "-99",
                 "ISO_A3": "-99",
                 "NAME": "Norway",
-                "Chronic_kidney": 605.0
+                "Alcohol_use_disorders": 250.0
             },
             "bbox": [
                 4.992078,
@@ -31687,7 +31687,7 @@
                 "ISO_A2": "NP",
                 "ISO_A3": "NPL",
                 "NAME": "Nepal",
-                "Chronic_kidney": 2360.0
+                "Alcohol_use_disorders": 165.0
             },
             "bbox": [
                 80.088425,
@@ -31801,7 +31801,7 @@
                 "ISO_A2": "NZ",
                 "ISO_A3": "NZL",
                 "NAME": "New Zealand",
-                "Chronic_kidney": 579.0
+                "Alcohol_use_disorders": 45.0
             },
             "bbox": [
                 166.509144,
@@ -32093,7 +32093,7 @@
                 "ISO_A2": "OM",
                 "ISO_A3": "OMN",
                 "NAME": "Oman",
-                "Chronic_kidney": 119.0
+                "Alcohol_use_disorders": 6.0
             },
             "bbox": [
                 52.00001,
@@ -32309,7 +32309,7 @@
                 "ISO_A2": "PK",
                 "ISO_A3": "PAK",
                 "NAME": "Pakistan",
-                "Chronic_kidney": 28732.0
+                "Alcohol_use_disorders": 1596.0
             },
             "bbox": [
                 60.874248,
@@ -32595,7 +32595,7 @@
                 "ISO_A2": "PA",
                 "ISO_A3": "PAN",
                 "NAME": "Panama",
-                "Chronic_kidney": 632.0
+                "Alcohol_use_disorders": 21.0
             },
             "bbox": [
                 -82.965783,
@@ -32825,7 +32825,7 @@
                 "ISO_A2": "PE",
                 "ISO_A3": "PER",
                 "NAME": "Peru",
-                "Chronic_kidney": 4972.0
+                "Alcohol_use_disorders": 278.0
             },
             "bbox": [
                 -81.410943,
@@ -33151,7 +33151,7 @@
                 "ISO_A2": "PH",
                 "ISO_A3": "PHL",
                 "NAME": "Philippines",
-                "Chronic_kidney": 15817.0
+                "Alcohol_use_disorders": 888.0
             },
             "bbox": [
                 117.174275,
@@ -33639,7 +33639,7 @@
                 "ISO_A2": "PG",
                 "ISO_A3": "PNG",
                 "NAME": "Papua New Guinea",
-                "Chronic_kidney": 455.0
+                "Alcohol_use_disorders": 64.0
             },
             "bbox": [
                 141.00021,
@@ -33999,7 +33999,7 @@
                 "ISO_A2": "PL",
                 "ISO_A3": "POL",
                 "NAME": "Poland",
-                "Chronic_kidney": 5127.0
+                "Alcohol_use_disorders": 4287.0
             },
             "bbox": [
                 14.074521,
@@ -34201,7 +34201,7 @@
                 "ISO_A2": "PR",
                 "ISO_A3": "PRI",
                 "NAME": "Puerto Rico",
-                "Chronic_kidney": 1257.0
+                "Alcohol_use_disorders": 152.0
             },
             "bbox": [
                 -67.242428,
@@ -34259,7 +34259,7 @@
                 "ISO_A2": "KP",
                 "ISO_A3": "PRK",
                 "NAME": "North Korea",
-                "Chronic_kidney": 3367.0
+                "Alcohol_use_disorders": 338.0
             },
             "bbox": [
                 124.265625,
@@ -34479,7 +34479,7 @@
                 "ISO_A2": "PT",
                 "ISO_A3": "PRT",
                 "NAME": "Portugal",
-                "Chronic_kidney": 3220.0
+                "Alcohol_use_disorders": 193.0
             },
             "bbox": [
                 -9.526571,
@@ -34633,7 +34633,7 @@
                 "ISO_A2": "PY",
                 "ISO_A3": "PRY",
                 "NAME": "Paraguay",
-                "Chronic_kidney": 887.0
+                "Alcohol_use_disorders": 121.0
             },
             "bbox": [
                 -62.685057,
@@ -34787,7 +34787,7 @@
                 "ISO_A2": "PS",
                 "ISO_A3": "PSE",
                 "NAME": "Palestine",
-                "Chronic_kidney": 523.0
+                "Alcohol_use_disorders": 4.0
             },
             "bbox": [
                 34.927408,
@@ -34845,7 +34845,7 @@
                 "ISO_A2": "QA",
                 "ISO_A3": "QAT",
                 "NAME": "Qatar",
-                "Chronic_kidney": 57.0
+                "Alcohol_use_disorders": 3.0
             },
             "bbox": [
                 50.743911,
@@ -34903,7 +34903,7 @@
                 "ISO_A2": "RO",
                 "ISO_A3": "ROU",
                 "NAME": "Romania",
-                "Chronic_kidney": 1956.0
+                "Alcohol_use_disorders": 754.0
             },
             "bbox": [
                 20.220192,
@@ -35101,7 +35101,7 @@
                 "ISO_A2": "RU",
                 "ISO_A3": "RUS",
                 "NAME": "Russia",
-                "Chronic_kidney": 10851.0
+                "Alcohol_use_disorders": 42789.0
             },
             "bbox": [
                 -180,
@@ -37677,7 +37677,7 @@
                 "ISO_A2": "RW",
                 "ISO_A3": "RWA",
                 "NAME": "Rwanda",
-                "Chronic_kidney": 844.0
+                "Alcohol_use_disorders": 82.0
             },
             "bbox": [
                 29.024926,
@@ -37755,7 +37755,7 @@
                 "ISO_A2": "EH",
                 "ISO_A3": "ESH",
                 "NAME": "W. Sahara",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 -17.063423,
@@ -37889,7 +37889,7 @@
                 "ISO_A2": "SA",
                 "ISO_A3": "SAU",
                 "NAME": "Saudi Arabia",
-                "Chronic_kidney": 4548.0
+                "Alcohol_use_disorders": 67.0
             },
             "bbox": [
                 34.632336,
@@ -38215,7 +38215,7 @@
                 "ISO_A2": "SD",
                 "ISO_A3": "SDN",
                 "NAME": "Sudan",
-                "Chronic_kidney": 3461.0
+                "Alcohol_use_disorders": 82.0
             },
             "bbox": [
                 21.93681,
@@ -38561,7 +38561,7 @@
                 "ISO_A2": "SS",
                 "ISO_A3": "SSD",
                 "NAME": "S. Sudan",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 23.88698,
@@ -38835,7 +38835,7 @@
                 "ISO_A2": "SN",
                 "ISO_A3": "SEN",
                 "NAME": "Senegal",
-                "Chronic_kidney": 1789.0
+                "Alcohol_use_disorders": 66.0
             },
             "bbox": [
                 -17.625043,
@@ -39033,7 +39033,7 @@
                 "ISO_A2": "SB",
                 "ISO_A3": "SLB",
                 "NAME": "Solomon Is.",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 156.491358,
@@ -39221,7 +39221,7 @@
                 "ISO_A2": "SL",
                 "ISO_A3": "SLE",
                 "NAME": "Sierra Leone",
-                "Chronic_kidney": 740.0
+                "Alcohol_use_disorders": 34.0
             },
             "bbox": [
                 -13.24655,
@@ -39331,7 +39331,7 @@
                 "ISO_A2": "SV",
                 "ISO_A3": "SLV",
                 "NAME": "El Salvador",
-                "Chronic_kidney": 2586.0
+                "Alcohol_use_disorders": 886.0
             },
             "bbox": [
                 -90.095555,
@@ -39433,7 +39433,7 @@
                 "ISO_A2": "-99",
                 "ISO_A3": "-99",
                 "NAME": "Somaliland",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 42.55876,
@@ -39559,7 +39559,7 @@
                 "ISO_A2": "SO",
                 "ISO_A3": "SOM",
                 "NAME": "Somalia",
-                "Chronic_kidney": 1152.0
+                "Alcohol_use_disorders": 101.0
             },
             "bbox": [
                 40.98105,
@@ -39729,7 +39729,7 @@
                 "ISO_A2": "RS",
                 "ISO_A3": "SRB",
                 "NAME": "Serbia",
-                "Chronic_kidney": 1917.0
+                "Alcohol_use_disorders": 450.0
             },
             "bbox": [
                 18.829825,
@@ -39943,7 +39943,7 @@
                 "ISO_A2": "SR",
                 "ISO_A3": "SUR",
                 "NAME": "Suriname",
-                "Chronic_kidney": 148.0
+                "Alcohol_use_disorders": 12.0
             },
             "bbox": [
                 -58.044694,
@@ -40069,7 +40069,7 @@
                 "ISO_A2": "SK",
                 "ISO_A3": "SVK",
                 "NAME": "Slovakia",
-                "Chronic_kidney": 679.0
+                "Alcohol_use_disorders": 183.0
             },
             "bbox": [
                 16.879983,
@@ -40223,7 +40223,7 @@
                 "ISO_A2": "SI",
                 "ISO_A3": "SVN",
                 "NAME": "Slovenia",
-                "Chronic_kidney": 160.0
+                "Alcohol_use_disorders": 133.0
             },
             "bbox": [
                 13.69811,
@@ -40317,7 +40317,7 @@
                 "ISO_A2": "SE",
                 "ISO_A3": "SWE",
                 "NAME": "Sweden",
-                "Chronic_kidney": 1133.0
+                "Alcohol_use_disorders": 454.0
             },
             "bbox": [
                 11.027369,
@@ -40499,7 +40499,7 @@
                 "ISO_A2": "SZ",
                 "ISO_A3": "SWZ",
                 "NAME": "Swaziland",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 30.676609,
@@ -40565,7 +40565,7 @@
                 "ISO_A2": "SY",
                 "ISO_A3": "SYR",
                 "NAME": "Syria",
-                "Chronic_kidney": 2003.0
+                "Alcohol_use_disorders": 61.0
             },
             "bbox": [
                 35.700798,
@@ -40695,7 +40695,7 @@
                 "ISO_A2": "TD",
                 "ISO_A3": "TCD",
                 "NAME": "Chad",
-                "Chronic_kidney": 1273.0
+                "Alcohol_use_disorders": 64.0
             },
             "bbox": [
                 13.540394,
@@ -40949,7 +40949,7 @@
                 "ISO_A2": "TG",
                 "ISO_A3": "TGO",
                 "NAME": "Togo",
-                "Chronic_kidney": 626.0
+                "Alcohol_use_disorders": 36.0
             },
             "bbox": [
                 -0.049785,
@@ -41047,7 +41047,7 @@
                 "ISO_A2": "TH",
                 "ISO_A3": "THA",
                 "NAME": "Thailand",
-                "Chronic_kidney": 15579.0
+                "Alcohol_use_disorders": 641.0
             },
             "bbox": [
                 97.375896,
@@ -41325,7 +41325,7 @@
                 "ISO_A2": "TJ",
                 "ISO_A3": "TJK",
                 "NAME": "Tajikistan",
-                "Chronic_kidney": 174.0
+                "Alcohol_use_disorders": 188.0
             },
             "bbox": [
                 67.44222,
@@ -41511,7 +41511,7 @@
                 "ISO_A2": "TM",
                 "ISO_A3": "TKM",
                 "NAME": "Turkmenistan",
-                "Chronic_kidney": 501.0
+                "Alcohol_use_disorders": 267.0
             },
             "bbox": [
                 52.50246,
@@ -41749,7 +41749,7 @@
                 "ISO_A2": "TL",
                 "ISO_A3": "TLS",
                 "NAME": "Timor-Leste",
-                "Chronic_kidney": 0
+                "Alcohol_use_disorders": 0
             },
             "bbox": [
                 124.968682,
@@ -41815,7 +41815,7 @@
                 "ISO_A2": "TT",
                 "ISO_A3": "TTO",
                 "NAME": "Trinidad and Tobago",
-                "Chronic_kidney": 356.0
+                "Alcohol_use_disorders": 28.0
             },
             "bbox": [
                 -61.95,
@@ -41869,7 +41869,7 @@
                 "ISO_A2": "TN",
                 "ISO_A3": "TUN",
                 "NAME": "Tunisia",
-                "Chronic_kidney": 1689.0
+                "Alcohol_use_disorders": 29.0
             },
             "bbox": [
                 7.524482,
@@ -42015,7 +42015,7 @@
                 "ISO_A2": "TR",
                 "ISO_A3": "TUR",
                 "NAME": "Turkey",
-                "Chronic_kidney": 12088.0
+                "Alcohol_use_disorders": 163.0
             },
             "bbox": [
                 26.043351,
@@ -42315,7 +42315,7 @@
                 "ISO_A2": "TW",
                 "ISO_A3": "TWN",
                 "NAME": "Taiwan",
-                "Chronic_kidney": 4919.0
+                "Alcohol_use_disorders": 210.0
             },
             "bbox": [
                 120.106189,
@@ -42373,7 +42373,7 @@
                 "ISO_A2": "TZ",
                 "ISO_A3": "TZA",
                 "NAME": "Tanzania",
-                "Chronic_kidney": 3855.0
+                "Alcohol_use_disorders": 243.0
             },
             "bbox": [
                 29.339998,
@@ -42603,7 +42603,7 @@
                 "ISO_A2": "UG",
                 "ISO_A3": "UGA",
                 "NAME": "Uganda",
-                "Chronic_kidney": 2372.0
+                "Alcohol_use_disorders": 186.0
             },
             "bbox": [
                 29.579466,
@@ -42737,7 +42737,7 @@
                 "ISO_A2": "UA",
                 "ISO_A3": "UKR",
                 "NAME": "Ukraine",
-                "Chronic_kidney": 1715.0
+                "Alcohol_use_disorders": 11801.0
             },
             "bbox": [
                 22.085608,
@@ -43131,7 +43131,7 @@
                 "ISO_A2": "UY",
                 "ISO_A3": "URY",
                 "NAME": "Uruguay",
-                "Chronic_kidney": 724.0
+                "Alcohol_use_disorders": 88.0
             },
             "bbox": [
                 -58.427074,
@@ -43237,7 +43237,7 @@
                 "ISO_A2": "US",
                 "ISO_A3": "USA",
                 "NAME": "United States",
-                "Chronic_kidney": 63437.0
+                "Alcohol_use_disorders": 10895.0
             },
             "bbox": [
                 -171.791111,
@@ -45085,7 +45085,7 @@
                 "ISO_A2": "UZ",
                 "ISO_A3": "UZB",
                 "NAME": "Uzbekistan",
-                "Chronic_kidney": 4213.0
+                "Alcohol_use_disorders": 250.0
             },
             "bbox": [
                 55.928917,
@@ -45323,7 +45323,7 @@
                 "ISO_A2": "VE",
                 "ISO_A3": "VEN",
                 "NAME": "Venezuela",
-                "Chronic_kidney": 5058.0
+                "Alcohol_use_disorders": 174.0
             },
             "bbox": [
                 -73.304952,
@@ -45713,7 +45713,7 @@
                 "ISO_A2": "VN",
                 "ISO_A3": "VNM",
                 "NAME": "Vietnam",
-                "Chronic_kidney": 11108.0
+                "Alcohol_use_disorders": 696.0
             },
             "bbox": [
                 102.170436,
@@ -45911,7 +45911,7 @@
                 "ISO_A2": "VU",
                 "ISO_A3": "VUT",
                 "NAME": "Vanuatu",
-                "Chronic_kidney": 33.0
+                "Alcohol_use_disorders": 3.0
             },
             "bbox": [
                 166.629137,
@@ -45987,7 +45987,7 @@
                 "ISO_A2": "YE",
                 "ISO_A3": "YEM",
                 "NAME": "Yemen",
-                "Chronic_kidney": 1632.0
+                "Alcohol_use_disorders": 54.0
             },
             "bbox": [
                 42.604873,
@@ -46185,7 +46185,7 @@
                 "ISO_A2": "ZA",
                 "ISO_A3": "ZAF",
                 "NAME": "South Africa",
-                "Chronic_kidney": 9488.0
+                "Alcohol_use_disorders": 553.0
             },
             "bbox": [
                 16.344977,
@@ -46585,7 +46585,7 @@
                 "ISO_A2": "ZM",
                 "ISO_A3": "ZMB",
                 "NAME": "Zambia",
-                "Chronic_kidney": 1340.0
+                "Alcohol_use_disorders": 91.0
             },
             "bbox": [
                 21.887843,
@@ -46851,7 +46851,7 @@
                 "ISO_A2": "ZW",
                 "ISO_A3": "ZWE",
                 "NAME": "Zimbabwe",
-                "Chronic_kidney": 1789.0
+                "Alcohol_use_disorders": 43.0
             },
             "bbox": [
                 25.264226,
