@@ -1,18 +1,43 @@
-import json
-import matplotlib.pyplot as plt
-import pandas as pd
+# def package
 from flask import Flask, render_template, request
-from pyspark.sql import SparkSession
+from io import BytesIO
+import json
 
-appName = "Flask app"
+# custome package
+import reformaGeojsonData
+
+# pandas
+import base64
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import matplotlib.image as img
+from matplotlib.collections import PolyCollection
+from matplotlib.figure import Figure
+
+spark bundle
+from pyspark.sql import SparkSession
+import pyspark.sql as sql
+import pyspark.sql.functions as f
+from pyspark.sql.functions import concat_ws, lit
+appName = "Spark SQL basic example"
+
 # Create a SparkSession
 spark = SparkSession.builder.appName(appName).getOrCreate()
-print("Spark version:", spark.version)
+# print("merge of datasets")
+# print("Spark version:", spark.version)
 bd = spark.read.csv("dada/big_dataset.csv", sep=";", header=True, inferSchema=True)
 
 # https://pymongo.readthedocs.io/en/stable/tutorial.html
 # https://matplotlib.org/
 app = Flask(__name__)
+
+
+def get_data():
+    print("daa")
+        # with open("annual-number-of-deaths-by-country-and-year.json", "r") as f:
 
 
 @app.route("/")
@@ -75,6 +100,15 @@ def death():
         plt.savefig("static/img/death_per_country.jpg")
         return render_template("death.html", data=df_pd)
 
+
+@app.route('/death/<year>/<country>')
+def death_per_url(year, country):
+    with open("annual-number-of-deaths-by-country-and-year.json", "r") as f:
+        data = json.load(f)
+        country = country.title()
+        return render_template("death.html", data=data[year][country])
+
+
 @app.route('/stats/', methods=['POST', 'GET'])
 def stats():
     if request.method == 'POST':
@@ -135,6 +169,62 @@ def map():
 def displayceckbox():
     fields = bd.columns[3:]
     return render_template('ckb.html', data={'fields': fields})
+
+@app.rout('/predict')
+def predict():
+    print("predict")
+
+@app.route('/getGeoData',methods=['GET','PUT'])
+def getGeoData():
+
+    geojson = json.load(open("./templates/testdata.geojson",'r'))
+    return json.dumps(geojson)
+
+@app.route('/geo',methods=['GET','PUT'])
+def geo():
+    lis = ["Executions", "Meningitis", "Alzheimer", "Parkinson", "Nutritional_deficiencies", "Malaria",
+           "Drowning",
+           "Interpersonal_violence", "Maternal_disorders", "HIV/AIDS", "Drug_use_disorders", "Tuberculosis",
+           "Cardiovascular_diseases", "Lower_respiratory_infections", "Neonatal_disorders", "Alcohol_use_disorders",
+           "Self-harm", "Exposure_to_forces_of_nature", "Diarrheal", "Environmental_heat_and_cold_exposure",
+           "Neoplasms", "Conflict_and_terrorism", "Diabetes_mellitus", "Chronic_kidney", "Poisonings",
+           "Protein-energy_malnutrition", "Terrorism", "Road_injuries", "Chronic_respiratory",
+           "Cirrhosis_and_other_chronic liver", "Digestive", "Fire_heat_and_hot_substances", "Acute_hepatitis"]
+    year_s = [*range(1990,2023)]
+
+    if 'cause' not in request.args : # on first time load
+        year = '2007'
+        cause = 'Maternal_disorders';
+        _GET = []
+    else :
+        print(f"{ request.args=}")
+        print(f"{ request.args['year_selected']}")
+        year = request.args['year_selected']
+        cause = request.args['cause']
+        _GET = request.args
+
+    input_data = reformaGeojsonData.filter_data(cause, year)
+    max = np.amax(np.array([*input_data.values()]))
+
+    unity = 'U'
+    p = 1
+
+    if max // np.power(10,6):
+        p = np.power(10,6)
+        unity = "M"
+    elif max // np.power(10,3):
+        unity = "K"
+        p = np.power(10,3)
+
+    print(f"{max=}")
+
+    graph_scal = 200/max
+
+    reformaGeojsonData.reformaGeoJson(input_data,cause,year)
+
+    # print(list(request.form))
+    return render_template('test2.html',label = cause ,fields = lis,year_select=year_s,prev_data=_GET,unity = unity,scale = graph_scal, power = p , year_selected = year , cause_selected = cause)
+
 
 
 if __name__ == '__main__':

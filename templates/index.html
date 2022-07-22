@@ -10,9 +10,11 @@
         <div>
             <label for="">Année</label>
             <select name="year">
+
                 {% for val in year %}
                 <option value="{{val}}">{{val}}</option>
                 {% endfor %}
+                <option value="fake_data">injection test</option>
             </select>
         </div>
         <div>

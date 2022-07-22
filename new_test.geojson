@@ -13443,7 +13443,7 @@
             "properties": {
                 "ISO_A2": "CI",
                 "ISO_A3": "CIV",
-                "NAME": "C\u4e48te d'Ivoire"
+                "NAME": "Côte d'Ivoire"
             },
             "bbox": [
                 -8.60288,
@@ -43068,7 +43068,7 @@
             "properties": {
                 "ISO_A2": "US",
                 "ISO_A3": "USA",
-                "NAME": "United States of America"
+                "NAME": "United States"
             },
             "bbox": [
                 -171.791111,
