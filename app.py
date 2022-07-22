@@ -170,7 +170,7 @@ def displayceckbox():
     fields = bd.columns[3:]
     return render_template('ckb.html', data={'fields': fields})
 
-@app.rout('/predict')
+@app.route('/predict')
 def predict():
     print("predict")
 
