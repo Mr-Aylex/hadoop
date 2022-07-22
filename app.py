@@ -17,7 +17,7 @@ import matplotlib.image as img
 from matplotlib.collections import PolyCollection
 from matplotlib.figure import Figure
 
-spark bundle
+# spark bundle
 from pyspark.sql import SparkSession
 import pyspark.sql as sql
 import pyspark.sql.functions as f
