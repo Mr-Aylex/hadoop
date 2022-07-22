@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <style>
+
+        .fake-btn{
+            position: absolute;
+            border: 1px black solid;
+            border-radius: 5px;
+            width: 30%;
+            text-align: center;
+            font-size: 15px;
+            cursor: pointer;
+            align-self: center;
+            top: 300px;
+        }
+
+        body {
+            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        body >form{
+            position: relative;
+            width: 300px;
+            height: 60vh;
+            /* flex: 0 1 auto; */
+            border-radius: 20px;
+            border: 1px black solid;
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body >form >h4{
+            height: 50px;
+            border-bottom: 1px black solid;
+            padding-bottom: 5px;
+            font-size: large;
+            text-align: center;
+            /* background-color: black;
+            color: white; */
+            font-weight: 900;
+        }
+
+        body >form > div:not(.fake-btn){
+            margin: 15px 0px;
+            padding-left: 15px;
+        }
+
+        select{
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
     <form action="/death" method="post">
         <h4>Nombre de mort par entitées</h4>
         <div>
-            <label for="">Année</label>
+            Année <br>
             <select name="year">
 
                 {% for val in year %}
@@ -18,38 +75,45 @@
             </select>
         </div>
         <div>
-            <label for="">pays/zone</label>
+            pays/zone <br>
             <select name="country">
                 {% for val in country %}
                 <option value="{{val}}">{{val}}</option>
                 {% endfor %}
             </select>
         </div>
-        <input type="submit">
+        <div class="fake-btn" target='death'> Submit</div>
     </form>
     <form action="/stats/" method="post">
         <h4>Nombre de mort par pays</h4>
         <div>
-            <label for="">pays/zone</label>
+            pays/zone <br>
             <select name="country">
                 {% for val in country %}
                 <option value="{{val}}">{{val}}</option>
                 {% endfor %}
             </select>
         </div>
-        <input type="submit">
+        <div class="fake-btn" target='stats'> Submit</div>
     </form>
 <form action="/plot" method="post">
-        <h4>Nombre de mort par année par maladie</h4>
+        <h4>Nombre de mort <br>par année par maladie</h4>
         <div>
-            <label for="">Année</label>
+            Année <br>
             <select name="year">
                 {% for val in year %}
                 <option value="{{val}}">{{val}}</option>
                 {% endfor %}
             </select>
         </div>
-        <input type="submit">
+
+        <div class="fake-btn" target='plot'> Submit</div>
     </form>
+    <script>
+        $('fake-btn').on('click',function(){
+            target = $(this).attr('target');
+            $('#'+target).submit();
+        })
+    </script>
 </body>
 </html>
